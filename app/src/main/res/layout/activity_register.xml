@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/register_title"
+                android:text="Create an Account"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/register_fullName"
+                android:layout_below="@+id/register_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:hint="Name"
+                android:background="@drawable/inputs"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="25dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/register_userName"
+                android:layout_below="@+id/register_fullName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:hint="Username"
+                android:background="@drawable/inputs"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="25dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_below="@+id/register_userName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/inputs"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="25dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/register_email"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/inputs"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp">
+            </EditText>
+
+            <EditText
+                android:id="@+id/register_confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/register_password"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:background="@drawable/inputs"
+                android:paddingLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp">
+            </EditText>
+
+            <Button
+                android:id="@+id/upload_photo_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_confirmPassword"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="25dp"
+                android:text="Upload Photo"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light">
+            </Button>
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upload_photo_button"
+                android:background="@drawable/button"
+                android:padding="5dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginHorizontal="70dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light">
+            </Button>
+
+            <Button
+                android:id="@+id/haveAccount_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/register_button"
+                android:background="@drawable/button"
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="70dp"
+                android:text="Already have an account?"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textColor="@android:color/background_light">
+            </Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

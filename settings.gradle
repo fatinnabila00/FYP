@@ -1,0 +1,2 @@
+rootProject.name='Communication Module'
+include ':app'

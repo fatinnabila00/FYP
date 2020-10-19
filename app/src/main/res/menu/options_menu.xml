@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Communication Module"
+        android:id="@+id/menu_communication_module"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Add Group"
+        android:id="@+id/menu_add_group"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Find Friends"
+        android:id="@+id/menu_find_friends"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Learning Module"
+        android:id="@+id/menu_learning_module"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Assessment Module"
+        android:id="@+id/menu_assessment_module"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Setting"
+        android:id="@+id/menu_setting"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:title="Sign out"
+        android:id="@+id/menu_signout"
+        app:showAsAction="never">
+    </item>
+</menu>

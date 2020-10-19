@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/chat_menu"
+        android:title="Chats"
+        android:icon="@drawable/chats">
+    </item>
+
+    <item
+        android:id="@+id/library_menu"
+        android:title="GIF Library"
+        android:icon="@drawable/library">
+    </item>
+
+    <item
+        android:id="@+id/contact_menu"
+        android:title="Contacts"
+        android:icon="@drawable/contacts">
+    </item>
+</menu>
